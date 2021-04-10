@@ -17,7 +17,7 @@ Navigate to the folder containing your code and run the following commands:
 ```sh
 echo "# git-cheat-sheet" >> README.md # creates a readme file
 git init # initializes the repository
-git add README.md #adds the readme file to the repo
+git add README.md # adds the readme file to the repo
 git commit -m "first commit" # creates a new commit with  the message "first commit"
 ```
 
@@ -41,30 +41,30 @@ git push -u origin main
 Enter your username and password and we are done.
 
 ## Working with an initialized repo
-No matter which method you used to create your repo, you are now ready to start coding.
+No matter which method you used to create your repo, you are now ready to start coding and let git track the changes.
 
-To view the status of tracked and untracked files, use
+To view the status of tracked and untracked files use:
 ```sh
 git status
 ```
 
 Each time you want to push a change there is 3 steps you have to do:
-1. Add the files you want to push
+1. Add the files you want to push:
 ```sh
 git add <filename>
 ```
-1. Commit the changes with a proper commit message
+2. Commit the changes with a proper commit message:
 ```sh
 git commit -m "Fixed bug in the whatever module"
 ```
-1. Push the changes
+3. Push the changes:
 ```sh
 git push
 ```
 
 That's it.
 
-If someone else committed changes to the repo while you were on vacation, use the pull-command to download the changes:
+If someone else committed changes while you were on vacation, use the pull-command to download the changes:
 ```sh
 git pull
 ```
