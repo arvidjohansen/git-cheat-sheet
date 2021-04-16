@@ -1,5 +1,8 @@
 # git cheat sheet
 
+## Git readme styling
+https://guides.github.com/features/mastering-markdown/
+
 All commands in this page will use https://github.com/arvidjohansen/git-cheat-sheet as the example of a repo
 
 ## Clone a repo to a new folder
