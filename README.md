@@ -76,3 +76,40 @@ If you are lucky, there won't be merge conflicts.
 
 Good luck!
 
+## How to make cool formating in README.md, comments etc
+Read [getting started with writing and formatting on github] github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github) by @github
+
+Also [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by @github
+
+or [download the pdf](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+And here is what the pdf's look like:
+
+
+![page-1](https://i.postimg.cc/NMwRtcpL/git-cheat-sheet-1.png)
+
+![page-2](https://i.postimg.cc/L6sL2vBk/git-cheat-sheet-2.png)
+
+
+also https://github.github.com/gfm/
+
+
+## Renaming a repository
+1) Make sure you are up to date with your remote
+```sh
+git push && git pull
+```
+
+2) Rename your repository under settings -> repository name
+
+3) Update your repo with following command:
+```sh
+git remote set-url origin <your-new-url>
+```
+
+## Creating template-repositories
+[Guide on creating template-repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+
+
+
+
