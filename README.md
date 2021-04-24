@@ -77,7 +77,7 @@ If you are lucky, there won't be merge conflicts.
 Good luck!
 
 ## How to make cool formating in README.md, comments etc
-Read [getting started with writing and formatting on github] github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github) by @github
+Read [getting started with writing and formatting on github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github) by @github
 
 Also [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) by @github
 
