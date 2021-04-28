@@ -110,6 +110,9 @@ git remote set-url origin <your-new-url>
 ## Creating template-repositories
 [Guide on creating template-repositories](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
 
+## Emojis
+* [Emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
 
 
 
