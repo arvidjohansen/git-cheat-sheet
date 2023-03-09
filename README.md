@@ -158,4 +158,24 @@ Complete details can be viewed using:
 
 `git show v1.5.0-beta`
 
+## Often used commands
+
+### gitignore
+
+> To prevent unwanted files from being tracked by git, add them to the `.gitignore`file
+
+### Remove files from being tracked by git
+
+To stop tracking a file, remove it from the index:
+
+```bash
+git rm --cached <file>
+```
+
+To remove a folder and all its files recursively:
+
+```bash
+git rm -r --cached <folder>
+```
+[More on StackOverflow](https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
 
